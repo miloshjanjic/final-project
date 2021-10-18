@@ -1,0 +1,23 @@
+{
+  "database": {
+      "host": "cluster0.yt8f9.mongodb.net",
+      "port": 27017,
+      "username": "dev",
+      "password": "bazapass2021",
+      "dbname": "project"
+  },
+  "auth": {
+      "jwt_key": "final"
+  },
+  "ports": {
+      "proxy": 4000,
+      "recipes": 4001,
+      "users": 4002
+  },
+  "path":{
+      "users": "/users" ,
+      "recipes": "/recipes",
+      "register": "/users/register" ,
+      "login": "/users/login"
+  }
+}
